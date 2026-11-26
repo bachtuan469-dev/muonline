@@ -1802,7 +1802,7 @@ namespace Client.Main.Networking.PacketHandling.Handlers
                                 DamageKind.CriticalBlue => Color.DeepSkyBlue,
                                 DamageKind.ReflectedLightPink => Color.LightPink,
                                 DamageKind.PoisonDarkGreen => Color.DarkGreen,
-                                DamageKind.ReflectedDarkPink => Color.DeepPink,
+                                DamageKind.DarkPink => Color.DeepPink,
                                 DamageKind.White => Color.White,
                                 _ => Color.Red // fallback to normal red
                             };
